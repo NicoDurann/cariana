@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NavBar */
+.navbar-brand {
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+nav {
+  height: 110px;
+  margin: 0px 70px;
+}
+nav > div > div {
+  margin-left: 50px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+a.active {
+  border-bottom: 2px solid black;
+}
+
+.navanim {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+.navanim:hover {
+  border-bottom: 2px solid black;
+}
+
+#carrito {
+  cursor: pointer;
+}
+#carrito-items {
+  margin: 0px 10px;
+}
+/* Fin NavBar */
+
+/* Carrusel */
+.carousel-control-next-icon {
+  background-image: url(../img/arrow-right.png);
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/arrow-left.png);
+}
+/* Fin Carrusel */
+
+/* Data */
+#data {
+  margin: 80px 50px 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+.data-img {
+  margin-bottom: 20px;
+}
+.data-text > h2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.data-text > p {
+  font-size: 12px;
+  line-height: 1.7;
+}
+/* Fin Data */
+
+/* Banner */
+#banner-reloj {
+  width: auto;
+}
+#banner-reloj > img {
+  width: 100%;
+}
+/* Fin Banner */
+
+/* Filtros */
+#tienda {
+  margin: 80px 50px;
+}
+.filtros > a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 15px;
+  /* border-bottom: 2px solid transparent; */
+  transition: border-color 0.3s;
+}
+.filtros > a:hover {
+  border-bottom: 2px solid black;
+}
+
+.filtro-selec {
+  border-bottom: 2px solid black;
+}
+/* Fin Filtros */
