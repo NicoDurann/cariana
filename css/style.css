@@ -114,4 +114,37 @@ a.active {
 .filtro-selec {
   border-bottom: 2px solid black;
 }
+
+.productos {
+  margin: 35px 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+}
+.producto {
+  margin-bottom: 20px;
+}
+.producto > img {
+  margin-bottom: 20px;
+}
+.titulo-producto {
+  font-size: 18px;
+  font-weight: 400;
+}
+.precio-producto {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.boton-producto {
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  transition: background-color 0.2s;
+}
+.boton-producto:hover {
+  background-color: #1d1d1d;
+}
 /* Fin Filtros */
