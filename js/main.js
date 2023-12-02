@@ -622,4 +622,3 @@ carrito.addEventListener("click", () => {
   crearModalCarrito();
 });
 
-localStorage
