@@ -60,9 +60,10 @@ a.active {
 #data {
   margin: 80px 50px 50px 50px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   grid-gap: 20px;
 }
+
 .data {
   display: flex;
   justify-content: center;
@@ -118,7 +119,7 @@ a.active {
 .productos {
   margin: 35px 10px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
   text-align: center;
 }
@@ -148,3 +149,15 @@ a.active {
   background-color: #1d1d1d;
 }
 /* Fin Filtros */
+
+
+
+
+
+
+/* MediaQueries */
+@media (max-width: 960px) {
+  #data {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
